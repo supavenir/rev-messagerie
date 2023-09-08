@@ -31,12 +31,12 @@ public class Utilisateur {
 	}
 
 	public int getAge() {
-
+		return 0;
 	}
 
 	@Override
 	public String toString() {
-		return nom + " " + prenom + " (" + age + ")";
+		return nom + " " + prenom + " (" + getAge() + ")";
 	}
 
 }
